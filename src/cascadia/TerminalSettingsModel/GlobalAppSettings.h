@@ -102,6 +102,7 @@ namespace winrt::Microsoft::Terminal::Settings::Model::implementation
         INHERITABLE_SETTING(Model::GlobalAppSettings, bool, DetectURLs, true);
         INHERITABLE_SETTING(Model::GlobalAppSettings, bool, MinimizeToNotificationArea, false);
         INHERITABLE_SETTING(Model::GlobalAppSettings, bool, AlwaysShowNotificationIcon, false);
+        INHERITABLE_SETTING(Model::GlobalAppSettings, bool, ShowAdminShield, true);
 
     private:
         guid _defaultProfile;
